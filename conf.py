@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# MAP-Client FAI Tutorial documentation build configuration file, created by
+# MAP-Client FAI Workshop documentation build configuration file, created by
 # sphinx-quickstart on Fri Sep  2 09:35:34 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'MAP-Client FAI Tutorial'
+project = u'MAP-Client FAI Workshop'
 copyright = u'2016, Ju Zhang'
 author = u'Ju Zhang'
 
@@ -136,7 +136,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'MAP-Client FAI Tutorial v0.1'
+# html_title = u'MAP-Client FAI Workshop v0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -236,7 +236,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MAP-ClientFAITutorialdoc'
+htmlhelp_basename = 'MAP-ClientFAIWorkshopdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -262,7 +262,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MAP-ClientFAITutorial.tex', u'MAP-Client FAI Tutorial Documentation',
+    (master_doc, 'MAP-ClientFAIWorkshop.tex', u'MAP-Client FAI Workshop Documentation',
      u'Ju Zhang', 'manual'),
 ]
 
@@ -304,7 +304,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'map-clientfaitutorial', u'MAP-Client FAI Tutorial Documentation',
+    (master_doc, 'map-clientfaiworkshop', u'MAP-Client FAI Workshop Documentation',
      [author], 1)
 ]
 
@@ -319,8 +319,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MAP-ClientFAITutorial', u'MAP-Client FAI Tutorial Documentation',
-     author, 'MAP-ClientFAITutorial', 'One line description of project.',
+    (master_doc, 'MAP-ClientFAIWorkshop', u'MAP-Client FAI Workshop Documentation',
+     author, 'MAP-ClientFAIWorkshop', 'One line description of project.',
      'Miscellaneous'),
 ]
 
