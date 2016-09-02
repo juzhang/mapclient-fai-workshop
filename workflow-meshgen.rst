@@ -118,7 +118,14 @@ respective readme files.
     -  identifier : something like femur-l-eval
     -  discretisation: [10,10]
     -  node coordinates: False
-    -  elements: [TODO]
+    -  elements: the elements sampled should be where the segmented
+       surfaces are on each bone. Therefore, the elements are different
+       for each bone.
+
+        -  Pelvis: 27-47, 64-67, 72, 100-120, 137-140, 145 
+        -  Femurs: all
+        -  Patellas: all
+        -  tibiafibulas: 0-2, 10-23, 52-54, 72-83
 
 7.  Add the **Pointwise Rigid Registration** step to the workspace.
     Connect the output port of the **Fieldwork Model Evaluation** step

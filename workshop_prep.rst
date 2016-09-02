@@ -13,11 +13,12 @@ participants can do in preparation.
 1. Try to Install MAP Client
 ----------------------------
 
+MORE TO COME HERE - current documentation out of date.
+
 Visit the `MAP Client documentation site <https://map-client.readthedocs.io/en/latest/index.html>`_ for installation
 instructions. If you do not succeed, don't worry, we will go over
 installation on day 1.
 
-MORE TO COME HERE
 
 2. Download FAI case data
 -------------------------
