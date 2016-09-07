@@ -66,3 +66,5 @@ models <https://simtk.org/projects/opensim>`__, we will also be using
 OpenSim 3.3's Python API. If you intend on developing MAP Client
 plugins, you should familiarise yourself with Python and these
 libraries.
+
+In the :doc:`map_installation` guide we will cover the installation of these libraries.
