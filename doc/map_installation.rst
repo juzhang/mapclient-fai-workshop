@@ -34,11 +34,21 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
 
     where X.X.X is the version number.
 
+    2.6. Install `OpenSim 3.3 <https://simtk.org/frs/?group_id=91>`_ (if you have not already)
+
+    2.7. In a Anaconda prompt, navigate into the OpenSim python binding folder, e.g. ::
+
+        cd C:\OpenSim 3.3\sdk\python
+
+    2.8. Install OpenSim Python bindings::
+
+        pip install .
+
 3. Install MAP Client 0.13 Beta in the Anaconda environment. [WIP, steps not finalised]
     
     3.1. Download the `0.13 Beta release <https://github.com/MusculoskeletalAtlasProject/mapclient/releases>`_ in the .zip format.
 
-    3.2. Extract the zip file into some folder and navigate into the src folder. A setup.py file should be in the folder, e.g. ::
+    3.2. Extract the zip file into some folder and, in a Anaconda prompt, navigate into the src folder. A setup.py file should be in the folder, e.g. ::
 
         cd Downloads\mapclient-0.13.0-beta\src
 
