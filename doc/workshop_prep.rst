@@ -13,11 +13,7 @@ participants can do in preparation.
 1. Try to Install MAP Client
 ----------------------------
 
-MORE TO COME HERE - current documentation out of date.
-
-Visit the `MAP Client documentation site <https://map-client.readthedocs.io/en/latest/index.html>`_ for installation
-instructions. If you do not succeed, don't worry, we will go over
-installation on day 1.
+Try the :doc:`map_installation` guide for Windows. If you do not succeed, don't worry, we will go over installation on day 1.
 
 
 2. Download FAI case data
@@ -67,4 +63,4 @@ OpenSim 3.3's Python API. If you intend on developing MAP Client
 plugins, you should familiarise yourself with Python and these
 libraries.
 
-In the :doc:`map_installation` guide we will cover the installation of these libraries.
+The :doc:`map_installation` guide covers the installation of these libraries.

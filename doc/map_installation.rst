@@ -7,8 +7,6 @@ MAP Client
 Windows - Into an Anaconda Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[WIP STEPS NOT FINALISED]
-
 Anaconda is an umbrella package of Python packages for scientific computing. It is a convenient way to set up a Python environment with the dependencies for MAP Client and its plugins.
 
 1. Install `Anaconda <https://www.continuum.io/downloads>`_ for Python 2.7
@@ -46,13 +44,13 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
 
         pip install .
 
-3. Install MAP Client 0.13 Beta in the Anaconda environment. [WIP, steps not finalised]
+3. Install MAP Client 0.13 Beta in the Anaconda environment.
     
-    3.1. Download the `0.13 Beta release <https://github.com/MusculoskeletalAtlasProject/mapclient/releases>`_ in the .zip format.
+    3.1. Download the `0.13 Delta release <https://github.com/MusculoskeletalAtlasProject/mapclient/releases>`_ in the .zip format.
 
     3.2. Extract the zip file into some folder and, in a Anaconda prompt, navigate into the src folder e.g. ::
 
-        cd Downloads\mapclient-0.13.0-beta\src
+        cd Downloads\mapclient-0.13.0-delta\src
 
     A setup.py file should be in the folder.
 
@@ -80,7 +78,7 @@ Coming soon.
 
 MAP Client Plugins
 ------------------
-MAP Client plugins can either be installed by the MAP Client automatically on import of a workflow, or manually by the user. Pure-Python plugins should be easily handled automatically but plugins with non-python components and/or dependencies may need to be installed manually.
+MAP Client plugins can either be installed by the MAP Client automatically on opening of a workflow, or manually by the user. Pure-Python plugins should be easily handled automatically but plugins with non-python components and/or dependencies may need to be installed manually.
 
 Automatically from a Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,8 +86,8 @@ Automatically from a Workflow
 2. Open MAP Client, open the Plugin Manager, set the plugins folder
 3. Save a workflow to disk
 4. Open the workflow in MAP Client
-5. MAP Client should automatically download any plugins in the workflow not already installed.
-6. Restart the MAP Client for the newly installed plugins to be usable [known bug].
+5. MAP Client should automatically download any plugins in the workflow not already installed. An error message will appear when plugins are installed [known bug].
+6. Restart the MAP Client for the newly installed plugins to be usable.
 
 Manually
 ~~~~~~~~
