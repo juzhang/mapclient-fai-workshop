@@ -82,12 +82,9 @@ MAP Client plugins can either be installed by the MAP Client automatically on op
 
 Automatically from a Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Create a folder for keeping plugins
-2. Open MAP Client, open the Plugin Manager, set the plugins folder
-3. Save a workflow to disk
-4. Open the workflow in MAP Client
-5. MAP Client should automatically download any plugins in the workflow not already installed. An error message will appear when plugins are installed [known bug].
-6. Restart the MAP Client for the newly installed plugins to be usable.
+1. Open a workflow in MAP Client
+2. MAP Client should automatically download any plugins in the workflow not already installed. An error message will appear when plugins are installed [known bug].
+3. Restart the MAP Client for the newly installed plugins to be usable.
 
 Manually
 ~~~~~~~~
