@@ -16,13 +16,13 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
     
     2.1. Open a Anaconda 2 command prompt: Start > All programs > Anaconda2 > Anaconda Prompt
     
-    2.2. Install Git, PySide and Mayavi via the commandline (PySide only support python 2.7 and 3.3)::
+    2.2. Install Git and Mayavi via the commandline::
         
-        conda install pyside mayavi git
+        conda install mayavi git
 
     Enter "y" for questions confirming the install, e.g. having to downgrade some packages.
 
-    2.3. Install transforms3d via the commandline::
+    2.3. Install transforms3d via the commandline using pip::
 
         pip install transforms3d
 
@@ -40,6 +40,8 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
 
         cd C:\OpenSim 3.3\sdk\python
 
+    There should be a setup.py file in the folder.
+
     2.8. Install OpenSim Python bindings::
 
         pip install .
@@ -48,14 +50,15 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
     
     3.1. Download the `0.13 Beta release <https://github.com/MusculoskeletalAtlasProject/mapclient/releases>`_ in the .zip format.
 
-    3.2. Extract the zip file into some folder and, in a Anaconda prompt, navigate into the src folder. A setup.py file should be in the folder, e.g. ::
+    3.2. Extract the zip file into some folder and, in a Anaconda prompt, navigate into the src folder e.g. ::
 
         cd Downloads\mapclient-0.13.0-beta\src
 
+    A setup.py file should be in the folder.
+
     3.1. Install MAP Client via the commandline prompt::
 
-        pip install .
-        pip install -r requirements.txt
+        pip install . -r requirements.txt
 
 4. Mapclient can be run from the Anaconda prompt by entering::
     
@@ -73,8 +76,11 @@ Windows - MAP Client Standalone
 Linux
 ~~~~~
 
+Coming soon.
+
 MAP Client Plugins
 ------------------
+MAP Client plugins can either be installed by the MAP Client automatically on import of a workflow, or manually by the user. Pure-Python plugins should be easily handled automatically but plugins with non-python components and/or dependencies may need to be installed manually.
 
 Automatically from a Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,6 +89,7 @@ Automatically from a Workflow
 3. Save a workflow to disk
 4. Open the workflow in MAP Client
 5. MAP Client should automatically download any plugins in the workflow not already installed.
+6. Restart the MAP Client for the newly installed plugins to be usable [known bug].
 
 Manually
 ~~~~~~~~
@@ -95,7 +102,8 @@ Manually
         trcframeselectorstep\
         ...
 
-4. Restart MAP Client 
+4. Restart the MAP Client for the newly installed plugins to be usable [known bug].
 
 MAP Client Workflows
 --------------------
+A MAP Client workflow is saved as a series of files in its own folder. This folder can be anywhere on your file system. The workflow is imported into MAP Client by File>Open and selecting the workflow folder.
