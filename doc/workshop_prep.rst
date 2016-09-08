@@ -55,9 +55,8 @@ Github.
 ------------------------------------
 
 The MAP Client and its plugins are written in the Python programming
-language. The plugins themselves make heavy use of the
-`NumPy <http://www.numpy.org/>`__ and `SciPy <http://www.scipy.org/>`__
-libraries for numeric computing. Since we will be dealing with `OpenSim
+language. The plugins themselves make heavy use of the `SciPy <https://docs.scipy.org/doc/numpy-dev/user/quickstart.html>`__
+library for numeric computing (you don't need to install SciPy separately). Since we will be dealing with `OpenSim
 models <https://simtk.org/projects/opensim>`__, we will also be using
 OpenSim 3.3's Python API. If you intend on developing MAP Client
 plugins, you should familiarise yourself with Python and these
