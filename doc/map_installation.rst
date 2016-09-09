@@ -10,7 +10,7 @@ Windows - Into an Anaconda Environment
 Anaconda is an umbrella package of Python packages for scientific computing. It is a convenient way to set up a Python environment with the dependencies for MAP Client and its plugins.
 
 1. Install `Anaconda <https://www.continuum.io/downloads>`_ for Python 2.7
-2. Install MAP Client and plugin dependencies in the Anaconda environment
+2. Install MAP Client plugin dependencies in the Anaconda environment
     
     2.1. Open a Anaconda 2 command prompt: Start > All programs > Anaconda2 > Anaconda Prompt
     
@@ -44,7 +44,7 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
 
         pip install .
 
-3. Install MAP Client 0.13 Beta in the Anaconda environment.
+3. Install MAP Client 0.13 Delta in the Anaconda environment.
     
     3.1. Download the `0.13 Delta release <https://github.com/MusculoskeletalAtlasProject/mapclient/releases>`_ in the .zip format.
 
