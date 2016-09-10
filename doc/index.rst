@@ -33,9 +33,17 @@ Contents:
    program
    workshop_prep
    map_installation
+   run_workflow
    workflow-meshgen
    workflow-osimgen
+   plugin-dev
+   tips-and-tricks
    glossary
+
+Workshop Data
+=============
+
+The data for this workshop, including the documentation, example workflows, and workflow data can be downloaded from the `workshop Github page <https://github.com/juzhang/mapclient-fai-workshop>`_.
 
 Copyright
 =========

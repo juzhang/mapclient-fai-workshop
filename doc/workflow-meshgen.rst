@@ -260,7 +260,7 @@ step's operation, please refer to their respective readme files.
     the target, then click *Register* to perform an automatic ICP
     registration. The registration can be manually adjusted through the
     *Translation* and *Rotation* values. Click *Accept* to move onto the
-    next step.
+    next step. [KNOWN BUG] Error messages concerning VTK will appear when the registered pointcloud updated in the 3-D viewer. This message can be ignored.
 8.  [AUTO] The **Fieldwork Model Transformation** step applies the
     rigid-body registration transformation from (7) to the bone mesh
     from (4) to register it to the segmentation.

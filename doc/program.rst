@@ -14,9 +14,9 @@ Morning
 -  General Concepts (plugins/steps/workflows)
 -  Demo - Run Gait2392 Customisation from FAI data workflow
 -  Hands-on - Installation
--  Hands-on - putting together a workflow
-   -  download plugins
-   -  create new workflow
+-  Hands-on - Run a workflow
+   -  download workflow and data
+   -  configure workflow
    -  run
 
 Afternoon
@@ -45,7 +45,6 @@ Afternoon
 -  Overview of the core libraries used by plugins
    
    -  GIAS2
-   -  OpenCMISS Zinc ?
    -  OpenSim Python API
 
 -  Propose plugins/workflows to work on for rest of week
