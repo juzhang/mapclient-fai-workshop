@@ -37,7 +37,9 @@ Contents:
    workflow-meshgen
    workflow-osimgen
    plugin-dev
+   plugin-dev2
    tips-and-tricks
+   gias2
    glossary
 
 Workshop Data

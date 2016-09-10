@@ -1,7 +1,7 @@
 GIAS2
 =====
 
-GIAS2 is a free and open-source Python library used by most MAP Client plugins written by Ju Zhang. It has a wide range of functionalities aimed for musculoskeletal modelling. This page provides some background on GIAS2 and looks at some of its parts which may be useful for extending current and writting new MAP Client plugins.
+GIAS2 is a free and open-source Python library used by most MAP Client plugins written by Ju Zhang. It has a wide range of functionalities aimed at musculoskeletal modelling. This page provides some background on GIAS2 and looks at some of its parts which may be useful for extending current and writting new MAP Client plugins.
 
 Background
 ----------
