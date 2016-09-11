@@ -47,6 +47,8 @@ Output Data
 Building the Workflow
 =====================
 
+.. image:: images/worfklow_g2392cust.png
+
 1. Start a new workflow: *File>New>Workflow* and create a new folder for
    the workflow and click *Open* inside that folder.
 2. Add the **TRC Source** step to the workspace. Configure it with the
@@ -135,8 +137,11 @@ step's operation, please refer to their respective readme files.
    locations at a specified frame.
 3. The **Fieldwork Lower Limb Generation** step registers the lower-limb
    shape model to the specified markers, thereby generating
-   approximately patient-specific meshes for each lower limb bone. When
-   the GUI of this step appears, the lower limb model will be shown in
+   approximately patient-specific meshes for each lower limb bone.
+
+   .. image:: images/plugins_llgen.png
+
+   When the GUI of this step appears, the lower limb model will be shown in
    its un-registered position away from the green markers. The step is
    preconfigured so simply click the *Register* button in the
    *Registration* tab. Registration will take around 2 minutes after

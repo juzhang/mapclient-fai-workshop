@@ -55,6 +55,8 @@ other is a GEOF file of the patient-specific bone in an internal format
 Building the Workflow
 =====================
 
+.. image:: images/workflow_femur_fit.png
+
 These instructions will create a workflow that produces the meshes for 1
 bone for 1 case. The steps can be replicated to output meshes for other
 bones. Details on each of the plugins/steps used can be found in their
@@ -236,8 +238,11 @@ step's operation, please refer to their respective readme files.
     locations at a specified frame.
 3.  The **Fieldwork Lower Limb Generation** step registers the
     lower-limb shape model to the specified markers, thereby generating
-    approximately patient-specific meshes for each lower limb bone. When
-    the GUI of this step appears, the lower limb model will be shown in
+    approximately patient-specific meshes for each lower limb bone. 
+
+    .. image:: images/plugins_llgen.png
+
+    When the GUI of this step appears, the lower limb model will be shown in
     its un-registered position away from the green markers. The step is
     preconfigured so simply click the *Register* button in the
     *Registration* tab. Registration will take around 2 minutes after
@@ -254,6 +259,9 @@ step's operation, please refer to their respective readme files.
 6.  [AUTO] The *Polygon Source* step reads in the segmented surfaces.
 7.  The **Pointwise Registration** step performs a rigid-body
     registration of the mesh pointcloud (5) to the segmented surface.
+
+    .. image:: images/plugins_pointreg_femur.png
+
     When the GUI of this step appears, the source pointcloud
     (discretised mesh) is shown in green and the target in red
     (segmented). Play with the Euler *Rotation* angles until the yellow
@@ -267,18 +275,17 @@ step's operation, please refer to their respective readme files.
     from (4) to register it to the segmentation.
 9.  The **Fieldwork Host Mesh Fitting Step** performs a host-mesh fit of
     the bone mesh to the segmentation to bring the mesh a bit closer to
-    the segmentation before local mesh fitting. The step is
-    preconfigured so click *Fit* to start the fit. Fitting will take 1-2
-    minutes. After the fit finishes, you can click *Fit* again to
-    improve the fit. A RMS error of less than 2.5 mm should be
-    sufficient. Click *Accept* to move onto the next step.
+    the segmentation before local mesh fitting.
+
+    .. image:: images/plugins_hmf_femur.png
+
+    The step is preconfigured so click *Fit* to start the fit. Fitting will take 1-2 minutes. After the fit finishes, you can click *Fit* again to improve the fit. A RMS error of less than 2.5 mm should be sufficient. Click *Accept* to move onto the next step.
 10. The **Fieldwork Mesh Fitting Step** performs a final local mesh fit
-    of the bone mesh to the segmentation. The step is preconfigured so
-    click *Fit* to start the fit. Fitting will take 1-15 minutes
-    depending on the size of the mesh (Pelvis will take the longest).
-    After the fit finishes, you can click *Fit* again to improve the
-    fit. A RMS error of around 1 mm should be sufficient. Click *Accept*
-    to move onto the next step.
+    of the bone mesh to the segmentation.
+
+    .. image:: images/plugins_fit_femur_0.png
+
+    The step is preconfigured so click *Fit* to start the fit. Fitting will take 1-15 minutes depending on the size of the mesh (Pelvis will take the longest). After the fit finishes, you can click *Fit* again to improve the fit. A RMS error of around 1 mm should be sufficient. Click *Accept* to move onto the next step.
 11. [AUTO] The **Fieldwork Model Serialiser** step writes the fitted
     mesh to file in the internal .geof format.
 12. [AUTO] The **Fieldwork Model Triangulation** step discretises the
