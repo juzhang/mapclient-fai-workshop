@@ -27,8 +27,8 @@ The plan is to cover the first 4 topics in the first two days, allowing
 participants to work on plugins and workflows of their own in the
 remaining 3 days.
 
-Contents:
-=========
+Contents
+========
 
 .. toctree::
    :maxdepth: 1
