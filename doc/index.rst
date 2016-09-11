@@ -3,9 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-***********************************
-MAP-Client FAI Workshop - |version|
-***********************************
+***********************
+MAP-Client FAI Workshop
+***********************
+
+*Version* |version|
+
+.. image:: images/workflow_femur_fit_with_plugins.png
 
 This workshop aims to familiarise users to the `MAP Client <https://map-client.readthedocs.io/en/latest/index.html>`_ application and the development of MAP Client plugins. Examples and uses cases will focus on musculoskeletal model generation in the `FAI Project <https://www.griffith.edu.au/health/musculoskeletal-research>`_.
 
