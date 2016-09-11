@@ -36,48 +36,47 @@ The following is a brief summary of each of these modules.
 transform3D
 -----------
 
-Functions for applying rigid-body, similarity, and affine transformations to lists of point coordinates. Also function for calculating transformation matrices between 2 lists of corresponding points. `Source <https://bitbucket.org/jangle/gias2/src/>`_.
+The `transform3D <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/common/transform3D.py?at=master&fileviewer=file-view-default>`_ module contains functions for applying rigid-body, similarity, and affine transformations to lists of point coordinates. Also function for calculating transformation matrices between 2 lists of corresponding points.
 
 geometric_field
 ---------------
 
-Classes and functions for reading, writing, evaluating, and manipulating geometric Fieldwork models (see glossary). Fieldwork models are piece-wise parametric meshes interpolated by Lagrange polynomials. When used to describe geometry, Fieldwork models are instances of the ``GeometricField`` class in the geometric_field module. The bone meshes generated and used by many MAP Plugin plugins are such Fieldwork models. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `geometric_field <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/fieldwork/field/geometric_field.py?at=master&fileviewer=file-view-default>`_ module contains classes and functions for reading, writing, evaluating, and manipulating geometric Fieldwork models (see glossary). Fieldwork models are piece-wise parametric meshes interpolated by Lagrange polynomials. When used to describe geometry, Fieldwork models are instances of the ``GeometricField`` class in the geometric_field module. The bone meshes generated and used by many MAP Plugin plugins are such Fieldwork models.
 
 vtktools
 --------
 
-Classes and functions for polygon mesh processing using the `VTK library <http://www.vtk.org>`_. Especially useful are the ``Reader`` and ``Writer`` classes for reading and writing surface meshes in a variety of formats. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `vtktools <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/mesh/vtktools.py?at=master&fileviewer=file-view-default>`_ module contains classes and functions for polygon mesh processing using the `VTK library <http://www.vtk.org>`_. Especially useful are the ``Reader`` and ``Writer`` classes for reading and writing surface meshes in a variety of formats.
 
 mocap_landmark_preprocess
 -------------------------
 
-Functions for moving skin-surface marker coordinates to the bone surface using a given soft-tissue thickness and fixed translation vectors. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `mocap_landmark_preprocess <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/musculoskeletal/mocap_landmark_preprocess.py?at=master&fileviewer=file-view-default>`_ module contains functions for moving skin-surface marker coordinates to the bone surface using a given soft-tissue thickness and fixed translation vectors.
 
 bonemodels
 ----------
 
-Classes of various bones and multi-bone systems represented by underlying ``GeometricField`` instances (see above). Each bone's class derives from the ``BoneModel`` class and has a anatomical coordinate system establised from anatomical landmarks on the GeometricField instance. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `bonemodels <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/musculoskeletal/bonemodels/bonemodels.py?at=master&fileviewer=file-view-default>`_ module contains classes of various bones and multi-bone systems represented by underlying ``GeometricField`` instances (see above). Each bone's class derives from the ``BoneModel`` class and has a anatomical coordinate system establised from anatomical landmarks on the GeometricField instance.
 
 lowerlimbatlas
 --------------
 
-Contains the ``LowerLimbAtlas`` class which represents the articulated lower-limb shape model. This class exposes all the degrees of freedom of the model. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `lowerlimbatlas <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/musculoskeletal/bonemodels/lowerlimbatlas.py?at=master&fileviewer=file-view-default>`_ module contains the ``LowerLimbAtlas`` class which represents the articulated lower-limb shape model. This class exposes all the degrees of freedom of the model.
 
 osim
 ----
 
-Wrapper classes for OpenSim objects. This module provides Pythonic wrappers around commonly used OpenSim Python API Classes including the ``Model``, ``Body``, ``Joint``, and ``Muscle`` classes. These wrapper classes allow the OpenSim objects to be used without the cumbersome ``get`` and ``set`` methods. `Source <https://bitbucket.org/jangle/gias2/src>`_.
+The `osim <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/musculoskeletal/osim.py?at=master&fileviewer=file-view-default>`_ module contains wrapper classes for OpenSim objects. This module provides Pythonic wrappers around commonly used OpenSim Python API Classes including the ``Model``, ``Body``, ``Joint``, and ``Muscle`` classes. These wrapper classes allow the OpenSim objects to be used without the cumbersome ``get`` and ``set`` methods.
 
 fw_model_landmarks
 ------------------
 
-Functions for evaluating anatomical landmarks from ``GeometricField`` bone meshes. `Source <https://bitbucket.org/jangle/gias2/src>`_.
-
+The `fw_model_landmarks <https://bitbucket.org/jangle/gias2/src/18b11980cc2e742e5a17ecf197f2a4c88d9a672d/src/gias2/musculoskeletal/fw_model_landmarks.py?at=master&fileviewer=file-view-default>`_ module contains functions for evaluating anatomical landmarks from ``GeometricField`` bone meshes.
 
 Fieldwork Gait2392 Geometry Customisation Step
 ==============================================
 
-Detailed documentation on this plugin can be found on its Github page (see link above). 
+Detailed documentation on this plugin can be found on its `Github page <https://github.com/mapclient-plugins/fieldworkgait2392geomstep>`_. 
 
 step.py
 -------
