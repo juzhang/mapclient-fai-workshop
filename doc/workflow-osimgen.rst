@@ -1,12 +1,13 @@
+*********************************
 OpenSim Model Generation Workflow
-=================================
+*********************************
 
 This document describes how to build and run a MAP Client workflow for
 customising the Gait2392 OpenSim model to fit patient-specific bone
 meshes generated from FAI project data.
 
 Background
-----------
+==========
 
 The `Gait2392 OpenSim
 model <http://simtk-confluence.stanford.edu:8080/display/OpenSim/Gait+2392+and+2354+Models>`__
@@ -31,20 +32,20 @@ Gait2392 Geometry Customisation** step and **Fieldwork Gait2392 Muscle
 HMF** for details.
 
 Inputs Data
------------
+===========
 
 -  The fitted bone meshes for the pelvis, femurs, patellas, and
    tibia/fibulas from the Bone Mesh Generation Workflow.
 -  TRC file of mocap static-trial
 
 Output Data
------------
+===========
 
 -  A OpenSim Gait2392 model and geometry meshes customised using the
    input bone meshes.
 
 Building the Workflow
----------------------
+=====================
 
 1. Start a new workflow: *File>New>Workflow* and create a new folder for
    the workflow and click *Open* inside that folder.
@@ -120,7 +121,7 @@ Building the Workflow
       written.
 
 Running the Workflow
---------------------
+====================
 
 When the workflow is executed, the workflow steps are executed from
 start to finish. The steps are explain below. Most steps are automatic

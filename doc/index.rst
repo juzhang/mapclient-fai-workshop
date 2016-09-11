@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-===================================
+***********************************
 MAP-Client FAI Workshop - |version|
-===================================
+***********************************
 
 This workshop aims to familiarise users to the `MAP Client <https://map-client.readthedocs.io/en/latest/index.html>`_ application and the development of MAP Client plugins. Examples and uses cases will focus on musculoskeletal model generation in the `FAI Project <https://www.griffith.edu.au/health/musculoskeletal-research>`_.
 
@@ -39,7 +39,6 @@ Contents:
    plugin-dev
    plugin-dev2
    tips-and-tricks
-   gias2
    glossary
 
 Workshop Data

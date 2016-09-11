@@ -1,5 +1,6 @@
+******************
 Plugin Development
-==================
+******************
 
 The `MAP Client Manual <http://map-client.readthedocs.io/en/latest/manual/index.html>`_ provides thorough information on MAP Client plugin development.
 
@@ -8,7 +9,7 @@ The `MAP Client Manual <http://map-client.readthedocs.io/en/latest/manual/index.
 - To create a new plugins, please refer to the `Plugin Wizard page <http://map-client.readthedocs.io/en/latest/manual/MAP-plugin-wizard.html>`_.
 
 Plugin Walkthrough
-------------------
+==================
 
 Let's take a look at how the key components of a simple plugin are implemented in real life. We will look at the `TRC Frame Selector Step <https://github.com/mapclient-plugins/trcframeselectorstep>`_ plugin. This step takes as input data from a TRC file and outputs the coordinates of each marker at a user-configured frame. You can view its source code on the Github website or you can clone the repository and view the source code locally.
 
@@ -143,7 +144,7 @@ The step.py file along with the step class and the methods above are automatical
 
 
 Writing some Simple Plugins
----------------------------
+===========================
 
 The `MAP Client Plugin Wizard <http://map-client.readthedocs.io/en/latest/manual/MAP-plugin-wizard.html>`_ helps writing new plugins by generating the boiler-plate code and folder structure for any plugins. We will use the Plugin Wizard to write two simple plugin.
 

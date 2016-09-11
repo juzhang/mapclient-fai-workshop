@@ -1,12 +1,13 @@
+*****************************
 Bone Mesh Generation Workflow
-=============================
+*****************************
 
 This document describes how to build and run MAP Client workflows for
 generating lower-limb bone meshes from FAI-project mocap data and MRI
 segmentations.
 
 Background
-----------
+==========
 
 Generating patient-specific meshes of lower limb bones from FAI data
 require the fusion of mocap marker data and sparse MRI segmentations.
@@ -20,13 +21,13 @@ in the OpenSim Model Generation Workflow to produce a patient-specific
 Gait2392 model.
 
 Inputs Data
------------
+===========
 
 -  TRC file of mocap static-trial
 -  Preprocessed segmentations of all the bones
 
 Preprocessing Segmentations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 The segmented bone surfaces should only contain vertices on actual bone
 surfaces. This is because the workflow will be fitting surface meshes to
@@ -44,7 +45,7 @@ segmentation software. The closing operation tends to introduce vertices
 4. Export the modified surface.
 
 Output Data
------------
+===========
 
 The workflow described will output two meshes for each bone. One is an
 STL (or other similar format) file of the patient-specific bone. The
@@ -52,7 +53,7 @@ other is a GEOF file of the patient-specific bone in an internal format
 (see Fieldwork Models in the glossary).
 
 Building the Workflow
----------------------
+=====================
 
 These instructions will create a workflow that produces the meshes for 1
 bone for 1 case. The steps can be replicated to output meshes for other
@@ -221,7 +222,7 @@ respective readme files.
     that of the new bone.
 
 Running the Workflow
---------------------
+====================
 
 When the workflow is executed, the workflow steps are executed from
 start to finish. The steps are explain below. Most steps are automatic

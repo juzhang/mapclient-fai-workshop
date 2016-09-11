@@ -1,5 +1,6 @@
+********
 Glossary
-========
+********
 
 -  **Fieldwork Model/Mesh** : A Fieldwork model or mesh is a piece-wise
    parametric mesh used by the GIAS2 library. Most bone meshes used by

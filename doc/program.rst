@@ -1,14 +1,15 @@
+****************
 Workshop Program
-================
+****************
 This program is tentative and likely to change during the workshop depending on technical difficulties and the needs of participants.
 
 Day 1
------
+=====
 
 Overview of the MAP Client, installation, and usage
 
 Morning
-~~~~~~~
+-------
 -  Introductory Presentation
 -  Websites and documentation
 -  General Concepts (plugins/steps/workflows)
@@ -20,7 +21,7 @@ Morning
    -  run
 
 Afternoon
-~~~~~~~~~
+---------
 -  FAI Model Generation Presentation
 -  Segmentation preprocessing
 -  Bone Mesh Generation Workflow
@@ -30,18 +31,18 @@ Afternoon
 -  Discussion of limitation and possible improvements
 
 Day 2
------
+=====
 Plugin development, core libraries, and OpenSim.
 
 Morning
-~~~~~~~
+-------
 -  Plugin framework presentation
 -  Dive into code of a plugin (TRCFrameSelectorStep)
 -  The Plugin Wizard
 -  Hands-on - write a simple plugin
 
 Afternoon
-~~~~~~~~~
+---------
 -  Overview of the core libraries used by plugins
    
    -  GIAS2
@@ -52,16 +53,16 @@ Afternoon
    -  e.g. x3d mocap data reader
 
 Day 3
------
+=====
 
 Work on plugins/workflows
 
 Day 4
------
+=====
 
 Work on plugins/workflows
 
 Day 5
------
+=====
 
 Finish working on plugins/workflows, run and present.

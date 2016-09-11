@@ -1,11 +1,12 @@
+***********************
 MAP Client Installation
-=======================
+***********************
 
 MAP Client
-----------
+==========
 
 Windows - Into an Anaconda Environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 Anaconda is an umbrella package of Python packages for scientific computing. It is a convenient way to set up a Python environment with the dependencies for MAP Client and its plugins.
 
@@ -63,7 +64,7 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
     mapclient
 
 Windows - MAP Client Standalone
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 [EXPERIMENTAL, CANNOT INSTALL ADDITIONAL DEPENDENCIES]
 
@@ -72,22 +73,25 @@ Windows - MAP Client Standalone
 2. Run the .exe and install into the folder of your choice.
 
 Linux
-~~~~~
+-----
 
 Coming soon.
 
 MAP Client Plugins
-------------------
+==================
+
 MAP Client plugins can either be installed by the MAP Client automatically on opening of a workflow, or manually by the user. Pure-Python plugins should be easily handled automatically but plugins with non-python components and/or dependencies may need to be installed manually.
 
 Automatically from a Workflow
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
+
 1. Open a workflow in MAP Client
 2. MAP Client should automatically download any plugins in the workflow not already installed. An error message will appear when plugins are installed [known bug].
 3. Restart the MAP Client for the newly installed plugins to be usable.
 
 Manually
-~~~~~~~~
+--------
+
 1. Create a folder for keeping plugins
 2. Open MAP Client, open the Plugin Manager, set the plugins folder
 3. Download the latest releases of the desired plugin from the `MAP Client Plugins Github site <https://github.com/mapclient-plugins>`_ and extract into the plugins folder. There should be a folder for each plugin, e.g. ::
@@ -100,5 +104,6 @@ Manually
 4. Restart the MAP Client for the newly installed plugins to be usable [known bug].
 
 MAP Client Workflows
---------------------
+====================
+
 A MAP Client workflow is saved as a series of files in its own folder. This folder can be anywhere on your file system. The workflow is imported into MAP Client by File>Open and selecting the workflow folder.

@@ -1,10 +1,11 @@
+**************
 Run a Workflow
-==============
+**************
 
 Let's run a pre-built workflow. This workflow takes a set of fitted meshes of lower limb bones and generates a customised OpenSim Gait2392 model (see :doc:`workflow-osimgen` for details).
 
 Instructions
-------------
+============
 1. If you have not already, download the workshop data pack `here <https://github.com/juzhang/mapclient-fai-workshop/archive/master.zip>`_. This contains the workshop documentation, example workflows, and example workflow data. Extract into a folder of your choice. We will call this the workshop folder.
 
 2. Start MAP Client (open an Anaconda prompt, type mapclient, press enter).
