@@ -17,7 +17,7 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
     
     2.2. Install Git and Mayavi via the commandline::
         
-        conda install mayavi git
+        conda install mayavi git scipy
 
     Enter "y" for questions confirming the install, e.g. having to downgrade some packages.
 
