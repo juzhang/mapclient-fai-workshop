@@ -4,6 +4,11 @@ Tips and Tricks
 
 This page lists tips and tricks noted during the workshop.
 
+Misc
+====
+- An output port can be connected to multiple input ports.
+
+
 Deleting Auto-installed Plugin
 ==============================
 
@@ -27,4 +32,4 @@ Bugs
 
 -  The Gait2392 customisation workflow may produce an OpenSim model with a unrealistic knee angle for the right knee.
 
--  Conditiona via points do not activate on the muscle line segment, causing the muscle path to "snap".
+-  Conditional via points do not activate on the muscle line segment, causing the muscle path to "snap".
