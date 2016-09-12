@@ -98,8 +98,8 @@ respective readme files.
     -  Knee Options : check Abd. DOF
     -  GUI : check
 
-5.  Add the **Fieldwork Model Selector** step to the workflow. Connect
-    the first output port of the **Fieldwork Lower Limb (2 sides)
+5.  Add the **Fieldwork Model Selector** step to the workflow. If you do not have this plugin, you will need to installed it from the `plugins Github site <https://github.com/mapclient-plugins>`_. Follow the instructions in the Plugins/Manually section in :doc:`map_installation`.
+    Connect the first output port of the **Fieldwork Lower Limb (2 sides)
     Generation** step to the input port. Configure the step:
 
     -  identifier should contain the name of the bone to be generated,
