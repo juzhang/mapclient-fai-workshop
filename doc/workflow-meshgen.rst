@@ -141,8 +141,8 @@ respective readme files.
     -  Points to Sample: 1000
 
 8.  Add the **Polygon Source** step to the workspace. Connect its first
-    output port to the second input port of the **Fieldwork Model
-    Evaluation** step to the. Configure the step:
+    output port to the second input port of the **Pointwise Rigid Registration** step to the.
+    Configure the step:
 
     -  identifier: something like femur-l-seg
     -  File format: auto
