@@ -7,7 +7,7 @@ This chapter walks through the `Fieldwork Gait2392 Geometry Customisation Step <
 GIAS2
 =====
 
-`GIAS2 <https://bitbucket.org/jangle/gias2>`_ is a free and open-source Python library used by most MAP Client plugins written by Ju Zhang. It has a wide range of functionalities aimed at musculoskeletal modelling. It's functionalities can be broadly categoried into:
+`GIAS2 <https://bitbucket.org/jangle/gias2>`_ is a free and open-source Python library used by most MAP Client plugins written by Ju Zhang. It has a wide range of functionalities aimed at musculoskeletal modelling. It's functionalities can be broadly categorised into:
 
 - Geometric transformations
 - Rigid and non-rigid Registration
