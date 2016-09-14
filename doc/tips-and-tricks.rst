@@ -7,7 +7,7 @@ This page lists tips and tricks noted during the workshop.
 Misc
 ====
 - An output port can be connected to multiple input ports.
-- GIAS2 files can be found at ``C:\Users\Ju\Anaconda2\Lib\site-packages\gias2``
+- GIAS2 files can be found at ``C:\Users\[user]\Anaconda2\Lib\site-packages\gias2``
 
 
 Deleting Auto-installed Plugin
