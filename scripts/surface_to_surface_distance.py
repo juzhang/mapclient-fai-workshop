@@ -187,7 +187,7 @@ def calcSegmentationErrors(meshFileTest, meshFileGT, jacImgSpacing, gtScaling, t
     volMin = np.min([surfGT.v.min(0), surfTest.v.min(0)], axis=0)
     volMax = np.max([surfGT.v.max(0), surfTest.v.max(0)], axis=0)
     imgOrig = volMin-10.0
-    imgShape = np.ceil(((volMax+10.0)-imgOrig)/jacImgSpacing)
+    imgShape = np.ceil(((volMax+10.0)-imgOrig)/jacImgSpacing).astype(int)
 
     # calc jaccard coeff
     j, imgGT, imgTest = calcJaccard(surfGT, surfTest, imgOrig, imgShape, jacImgSpacing)
