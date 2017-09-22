@@ -68,15 +68,19 @@ Anaconda is an umbrella package of Python packages for scientific computing. It 
 
         pip install . -r requirements.txt
 
-5. Set an environment variable to make sure Mayavi works for visualisation in some mapclient plugins::
-    
-    set QT_API=pyqt
-        
-You may or may not need this, depending if you've installed Qt5 at some point. If you do need this command, you will need to run this command whenever you start a new terminal. See `here <https://conda.io/docs/using/envs.html#windows>`_ to set environment variables permanently.
-
 6. Mapclient can be run from your virtual environment's terminal by entering::
     
     mapclient
+    
+7. [OPTIONAL] If you see error messages relating to Qt or QtGui while running MAP Client workflows, you can try setting an environment variable::
+    
+    set QT_API=pyside
+    
+   or::
+
+    set Qt_API=pyqt
+        
+   Which one depends on if you've installed PyQt or PySide previously. If you do need this command, you will need to run this command whenever you start a new terminal. See `here <https://conda.io/docs/using/envs.html#windows>`_ to set environment variables permanently.
 
 Windows - MAP Client Standalone
 -------------------------------
